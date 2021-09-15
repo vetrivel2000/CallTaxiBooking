@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class LogicalLayer {
     ArrayList<String> tripsDetails= new ArrayList<>();
-    public static ArrayList<Taxi> getFreeTaxis(ArrayList<Taxi> taxis, char pickupPoint, int time)
+    public  ArrayList<Taxi> getFreeTaxis(ArrayList<Taxi> taxis, char pickupPoint, int time)
     {
         ArrayList<Taxi> freeTaxi=new ArrayList<>();
         for (Taxi taxi:taxis) {

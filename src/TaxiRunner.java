@@ -71,5 +71,4 @@ public class TaxiRunner {
             }
         }while (options<3);
     }
-
 }
