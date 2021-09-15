@@ -5,7 +5,6 @@ import pojo.Taxi;
 import java.util.ArrayList;
 
 public class LogicalLayer {
-    ArrayList<String> tripsDetails= new ArrayList<>();
     public  ArrayList<Taxi> getFreeTaxis(ArrayList<Taxi> taxis, char pickupPoint, int time)
     {
         ArrayList<Taxi> freeTaxi=new ArrayList<>();
@@ -45,8 +44,7 @@ public class LogicalLayer {
         bookedTaxi.setTotalEarnings(bookedTaxi.getTotalEarnings()+earnings);
         bookedTaxi.setFreeTime(nextFreeTime);
         bookedTaxi.setCurrentPoint(nextPoint);
-        tripsDetails.add(trips);
-        bookedTaxi.setTrips(tripsDetails);
+        bookedTaxi.setTrips(trips);
         return bookedTaxi.getId();
     }
 }

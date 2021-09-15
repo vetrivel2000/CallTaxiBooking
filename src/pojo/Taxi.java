@@ -53,7 +53,7 @@ public class Taxi {
         return trips;
     }
 
-    public void setTrips(ArrayList<String> trips) {
-        this.trips = trips;
+    public void setTrips(String trip) {
+        trips.add(trip);
     }
 }
