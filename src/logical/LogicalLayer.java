@@ -1,9 +1,6 @@
 package logical;
-
 import pojo.Taxi;
-
 import java.util.ArrayList;
-
 public class LogicalLayer {
     public  ArrayList<Taxi> getFreeTaxis(ArrayList<Taxi> taxis, char pickupPoint, int time)
     {
