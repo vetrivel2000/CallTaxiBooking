@@ -2,7 +2,6 @@ import logical.LogicalLayer;
 import pojo.Taxi;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
 
